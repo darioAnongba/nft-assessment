@@ -1,0 +1,21 @@
+# Web server settings
+[web]
+addr = "0.0.0.0:3000"
+
+# RGB settings
+[rgb]
+data_dir = "storage/rgblib"
+media_dir = "storage/media"
+electrum_url = "localhost:50001"
+proxy_server_url = "rpc://localhost:3030/json-rpc"
+min_confirmations = 3
+
+# Logging settings
+[logging]
+format = "json"
+ansi = false
+line_number = false
+thread_ids = false
+thread_names = false
+level = "info"
+filter = "assessment"
