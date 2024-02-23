@@ -22,7 +22,7 @@ Cargo.lock
 config/production.yaml
 
 # Local storage files
-storage/rgblib/
+#storage/rgblib/
 #storage/media/*
 
 .DS_Store
